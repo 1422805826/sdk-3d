@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large files
+*.blend1
+*.blend2
+*.fbx
+*.obj
+*.mtl
+*.dae
+*.pt
+*.pth
+*.glb
+*.gltf
+
+# Godot
+.godot/
+*.ods
+export/
+
+# Blender
+*.blend-bak
+*.blend-thumb
+renderings/
+
+# Results and outputs
+results/
+outputs/
+generated/
+*.mp4
+*.mov
+*.avi
+
+# Models (too large)
+models/*.obj
+models/*.fbx
+models/*.blend
+
+# Textures (too large)
+textures/*.png
+textures/*.jpg
+
+# Checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Logs
+logs/
+*.log
